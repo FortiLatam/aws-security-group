@@ -6,7 +6,7 @@ This repo helps you to automate the change of a security group for an instance i
 
 Imagine you want to isolate an EC2 from comunicating with other EC2s in the same subnet or with some host on internet after it downloads (or try to) a malware. It could help you to prevent other critical problems and isolating the EC2 you can investigate the event further.
 
-## Disclaimenr
+## Disclaimer
 
 This is a work in progress. There are many things to improve, as error handling, not EC2 instances, better ways to do, etc. Feel free to send your PRs.
 
