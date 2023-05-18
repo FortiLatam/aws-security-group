@@ -123,6 +123,10 @@ This consists of:
 - Click "Add Action" and click "Create"
 - Select "AWS Lambda" and give a name (eg Lambda-ChangeSG)
 - In URL paste your API Gateway URL. To get it, open a new browser tab, AWS Console -> Lambda -> Functions -> Select the lambda created -> Click "API Gateway" in Function Overview -> under Triggers menu check the API endpoint (this is your URL) -> expand "Details" and take a note of the API key
+
+> **Note** 
+> If you dont see an API Key in the details, you will need to add an API Key to you API Gateway. Please check this link https://docs.aws.amazon.com/apigateway/latest/developerguide/api-gateway-create-usage-plans-with-console.html
+
 - Still in Fortigate AWS Lambda creation page, paste the API Key in its field
 - Under HTTP header add:
     Name: srcip
